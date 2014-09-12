@@ -39,8 +39,7 @@ def main():
                                 elems_str = "\t".join(elems)
                                 print("%s\t%s" % ( "\t".join(mid_pid.split("_")), elems_str))
 
-		except Exception as e:
-                    print(e)
+		except:
                     pass
 
 if __name__ == '__main__':
